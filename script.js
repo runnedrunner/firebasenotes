@@ -2,15 +2,15 @@
 
 
 var name;
-var nameInput = $("#name-input").val();
-console.log(nameInput);
+var nameInput = $("#name-input");
+console.log(nameInput.val());
 console.log("stuff");
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    // we have a new name! Now what?
+    console.log("stuff");
   }	
 })
 
