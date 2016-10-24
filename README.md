@@ -1,0 +1,2 @@
+# firebasenotes
+Classadoo generated repo
